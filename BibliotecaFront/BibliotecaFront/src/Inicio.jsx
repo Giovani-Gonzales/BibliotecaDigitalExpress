@@ -5,8 +5,6 @@ import Campo from './Campo';
 import Titulo from './Titulo';
 import Conteudo from './Conteudo';
 
-import Imagem from './assets/images.jpg';
-
 const Inicio = () => {
     const [codigos, setCodigos] = useState([]);
     const [conteudos, setConteudos] = useState({});
@@ -27,7 +25,6 @@ const Inicio = () => {
     return (
         <>
             <Titulo 
-                imagem={Imagem} 
                 nome="Biblioteca de Livros"
             />
             <Campo className="container">
