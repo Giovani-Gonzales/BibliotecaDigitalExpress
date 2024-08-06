@@ -2,22 +2,20 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ModeloTitulo = styled.div`
-  background-image: url(${props => props.imagem});
-  background-position: center;
-  background-size: cover;
-  padding: 32px;
+  background-color: #383838;
+  padding: 20px;
 `;
 
 const TituloNome = styled.div`
   color: #ffff;
   font-size: 32pt;
-  margin-top: 160px;
+  margin-top: 0px;
   text-align: center;
 `;
 
-const Titulo = ({ imagem, nome }) => {
+const Titulo = ({ nome }) => {
   return (
-    <ModeloTitulo imagem={imagem}>
+    <ModeloTitulo>
       <TituloNome>{nome}</TituloNome>
     </ModeloTitulo>
   );
