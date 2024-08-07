@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const ModeloCampo = styled.div `
   background: white;
-  padding: 32px;
   margin: 5em;
+  background-color: rgba(255,255,255,0);
 `
 
 const CampoInterno = styled.div`

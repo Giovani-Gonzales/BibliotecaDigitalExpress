@@ -6,20 +6,20 @@ const ModeloConteudo = styled.div `
     flex-direction: column;
     width: 200px;
     padding: 20px;
-    background-color: #eeeeee;
+    background-color: #5C4132;
     border-radius: 20px;
     transition: transform 0.25s, background-color 0.25s, margin 0.25s;
     height: 25rem;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 100px;
 
     transition: transform 0.2s;
     &:hover {
         transform: scale(105%);
-        background-color: #e4e2e2; 
+        background-color: #B05727; 
         transition: transform 0.5s, background-color 0.5s, margin 0.5s;
     }
 `
@@ -27,17 +27,24 @@ const ModeloConteudo = styled.div `
 const ConteudoCapa = styled.img`
     height: 280px;
     width: 200px;
+    margin-top: -7em;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 `
 
 const ConteudoTitulo = styled.div`
     margin: 16px 0;
     text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 25px;
 `
 
 const ConteudoInfo = styled.div `
-    color: #555;
     font-size:12pt;
     text-align: center;
+    font-weight: normal;
+    color: white;
 ` 
 
 

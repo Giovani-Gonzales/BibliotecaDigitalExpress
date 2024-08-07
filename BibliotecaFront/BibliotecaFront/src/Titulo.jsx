@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ModeloTitulo = styled.div`
-  background-color: #383838;
+  background-color: #B05727;
   padding: 20px;
+  margin-bottom: 100px;
 `;
 
 const TituloNome = styled.div`
