@@ -11,6 +11,7 @@ const TituloNome = styled.div`
   font-size: 32pt;
   margin-top: 0px;
   text-align: center;
+  font-weight: bold;
 `;
 
 const Titulo = ({ nome }) => {

@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import axios from "axios";
+import axios from 'axios';
+import styled from 'styled-components';
+
+const ContainerItems = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+`;
 
 import Campo from './Campo';
 import Titulo from './Titulo';
@@ -24,13 +31,11 @@ const Inicio = () => {
 
     return (
         <>
-            <Titulo 
-                nome="Biblioteca de Livros"
-            />
-            <Campo className="container">
-                {
-                    codigos.map((codigo) => {
-                        return (
+            <Titulo nome="Biblioteca de Livros" />
+            <ContainerItems>
+                <Campo className="container">
+                    {
+                        codigos.map((codigo) => (
                             <Conteudo
                                 key={codigo}
                                 capa={conteudos[codigo].capa}
@@ -39,10 +44,10 @@ const Inicio = () => {
                                 ano={conteudos[codigo].ano}
                                 autor={conteudos[codigo].autor}
                             />
-                        );
-                    })
-                }
-            </Campo>
+                        ))
+                    }
+                </Campo>
+            </ContainerItems>
         </>
     );
 };
