@@ -14,7 +14,7 @@ const ModeloConteudo = styled.div `
     align-items: center;
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 
     transition: transform 0.2s;
     &:hover {
@@ -27,9 +27,9 @@ const ModeloConteudo = styled.div `
 const ConteudoCapa = styled.img`
     height: 280px;
     width: 200px;
-    margin-top: -7em;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    margin-top: -10em;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
 `
 
 const ConteudoTitulo = styled.div`
@@ -37,7 +37,7 @@ const ConteudoTitulo = styled.div`
     text-align: center;
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 `
 
 const ConteudoInfo = styled.div `

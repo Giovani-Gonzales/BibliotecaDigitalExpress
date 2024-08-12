@@ -9,7 +9,7 @@ const ModeloTitulo = styled.div`
 
 const TituloNome = styled.div`
   color: #ffff;
-  font-size: 32pt;
+  font-size: 40pt;
   margin-top: 0px;
   text-align: center;
   font-weight: bold;
