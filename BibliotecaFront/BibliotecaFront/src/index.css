@@ -18,4 +18,14 @@ body{
 
 ::-webkit-scrollbar-thumb {
   background: #B05727;
+  transition: 0.25s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #86431e;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #B05727;
+  border-radius: 100px;
 }

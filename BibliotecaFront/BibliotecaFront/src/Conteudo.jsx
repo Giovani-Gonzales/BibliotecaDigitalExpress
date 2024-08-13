@@ -37,7 +37,7 @@ const ConteudoTitulo = styled.div`
     text-align: center;
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 20   px;
 `
 
 const ConteudoInfo = styled.div `

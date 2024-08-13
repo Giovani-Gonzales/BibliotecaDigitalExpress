@@ -5,6 +5,7 @@ const ModeloCampo = styled.div `
   background: white;
   margin: 5em;
   background-color: rgba(255,255,255,0);
+  
 `
 
 const CampoInterno = styled.div`
